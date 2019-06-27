@@ -1,13 +1,13 @@
 # LancashireLavender.com
 
-![Lancashire Lavender](img/readme1.png)
+![Lancashire Lavender](img/readme1.PNG)
 
 
 ## Brief
 
 [LancashireLavender.com](https://LancashireLavender.com)
-You are tasked with creating a website to display the beauty
-of lavender. Its sustainability, its benefits to people’s health. The ethics behind lavender and the products that are available. Look to use modern design w/ parallax scrolling, efficient navigation and a section about the owners. 
+
+We were tasked with creating a website to display not only the beauty of lavender but it's sustainability and benefits to people’s health. Show case the ethics behind lavender and the products that are available. Look to use modern design with parallax scrolling efficient navigation and a section about the owners. 
 
 - [See our brief here in full](docs/LancashireLavender.pdf) 
 
@@ -17,7 +17,9 @@ of lavender. Its sustainability, its benefits to people’s health. The ethics b
 - Insert Here
 
 
-## Used 
+## Acknowledgements 
+
+Used in this project are the following libraries:
 
 - Bootstrap
 - Font Awesome 
