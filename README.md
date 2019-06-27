@@ -27,8 +27,8 @@ Used in this project are the following libraries:
 
 ## The Team
 
-- [@Ryan](https://github.com/ryan_farrell)
+- [@Ryan](https://github.com/ryan-farrell)
 - [@Yozgyan](https://github.com/Yozgyan)
 - [@Carmen](https://github.com/cmcharnley)
-- [@Adam](https://github.com/ryan_farrell)
+- [@Adam](https://github.com/ryan-farrell)
     
