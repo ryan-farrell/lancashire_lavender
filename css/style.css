@@ -1,0 +1,54 @@
+.right-nav-bar {
+    position: fixed ;
+    height: 13vw ;
+    width: 4vw;
+    right:0vw;
+    background: rgba(236, 198, 236, 0.534);
+    top:17vw;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+ }
+ .insta i{
+    font-size: 2vw;
+    position: absolute;
+    left:1vw;
+    top:1vw;
+    color:purple
+ 
+ }
+ .insta i:hover{
+     color:rgb(255, 0, 255)
+ }
+ .face i{
+    font-size: 2vw;
+    position: absolute;
+    left:1vw;
+    top:4vw;
+    color:purple
+ }
+ .face i:hover{
+    color:rgb(255, 0, 255)
+}
+ 
+ .twitter i{
+    font-size: 2vw;
+    position: absolute;
+    left:1vw;
+    top:7vw;
+    color:purple
+ 
+ }
+ .twitter i:hover{
+    color:rgb(255, 0, 255)
+}
+ .snap i{
+    font-size: 2vw;
+    position: absolute;
+    left:1vw;
+    top:10vw;
+    color:purple
+ 
+ }
+ .snap i:hover{
+    color:rgb(255, 0, 255)
+}
