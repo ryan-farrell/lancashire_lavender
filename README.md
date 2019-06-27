@@ -20,8 +20,8 @@ Project set at Code Nation from a company to
 
 ## The Team
 
-- [@ryan_farrell](https://github.com/ryan_farrell)
+- [@Ryan](https://github.com/ryan_farrell)
 - [@Yozgyan](https://github.com/Yozgyan)
-- [@cmcharnley](https://github.com/cmcharnley)
-
+- [@Carmen](https://github.com/cmcharnley)
+- [@Adam](https://github.com/ryan_farrell)
     
