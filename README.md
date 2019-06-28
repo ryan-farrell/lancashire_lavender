@@ -12,6 +12,7 @@ We were tasked with creating a website to display not only the beauty of lavende
 - [See our brief here in full](docs/LancashireLavender.pdf) 
 
 
+
 ## Future ideas for later versions
 
 - Insert Here

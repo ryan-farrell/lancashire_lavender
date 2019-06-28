@@ -1,3 +1,8 @@
+/*Carmen added body */
+
+body {
+   width: 100vw; 
+}
 .right-nav-bar {
    position: fixed ;
    height: 13vw ;
@@ -52,5 +57,38 @@
  .snap i:hover{
    color:rgb(255, 0, 255)
 }
+/*CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
+.nav {
+   min-height: 60px;
+   vertical-align: middle;
+   display: flex;           
+   justify-content: center;  
+   align-items: center;  
+ }
 
+.nav a:hover {
+   color: rgb(255, 0, 255) !important; 
+}
 
+.navbar-brand {
+   position: absolute;
+   top: -1vh; 
+   left: 5vw;
+}
+
+.logo-img {
+   width: 150px; 
+   border: 0; 
+}
+
+/****Ends here ****   *CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
+
+/*Carmen added collage*/
+
+.collage {
+   width: 50vw;
+}
+
+.owners {
+   color: #802E83;
+}
