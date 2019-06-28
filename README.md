@@ -30,5 +30,5 @@ Used in this project are the following libraries:
 - [@Ryan](https://github.com/ryan-farrell)
 - [@Yozgyan](https://github.com/Yozgyan)
 - [@Carmen](https://github.com/cmcharnley)
-- [@Adam](https://github.com/ryan-farrell)
+- [@Adam](https://github.com/adamnowill)
     
