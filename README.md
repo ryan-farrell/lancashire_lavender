@@ -11,12 +11,18 @@ We were tasked with creating a website to display not only the beauty of lavende
 
 - [See our brief here in full](docs/LancashireLavender.pdf) 
 
+## Our Plan and Design
+
+We began with trello and kanban and started getting our ideas onto our trello and later adding tasks to our kanban. Requested was a wire frame of our design please see [our wireframe](docs/initial_plan.png).
+
 
 
 ## Future ideas for later versions
 
-- Insert Here
-
+- Scroll to from the main nav bar buttons
+- Modern scroll bar
+- Instagram updates the About section picture collage Instagram API required
+- Form to collect customer details on database
 
 ## Acknowledgements 
 
@@ -24,7 +30,8 @@ Used in this project are the following libraries:
 
 - Bootstrap
 - Font Awesome 
-
+- Google Fonts
+- All pictures & video NOT provided by client at the outset
 
 ## The Team
 
