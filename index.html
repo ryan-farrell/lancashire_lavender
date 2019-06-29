@@ -5,32 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel = 'stylesheet' href="./css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
         <title>Lancashire Lavender</title>
     </head>
     <nav>
+
         <!--CARMEN AMENDED COLOUR AND ADDED IMAGE LOGO-->
     <ul class="nav justify-content-center fixed-top" style = "background-color: white" >
-            <a class="navbar-brand" href="#"><img class = "logo-img" src="img/final logo.PNG" /></a>
+            <a class="navbar-brand" href="#">
+                <img class = "logo-img; col-sm-4 col-md-4 col-lg-5" src="img/final logo.PNG" /></a>
+        <li> 
             <a class="nav-link" style ="color: #5B215E" href="#">Benefits</a>
-        </li>
+            </li>
         <li class="nav-item">
             <a class="nav-link" style ="color: #5B215E" href="#">Products</a>
-        </li>
+            </li>
         <li class="nav-item">
             <a class="nav-link" style ="color: #5B215E" href="#">About</a>
-        </li>
+            </li>
         <li class="nav-item">
             <a class="nav-link" style ="color: #5B215E" href="#">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
+            </li>
+                    </ul>
+        
+                </nav>
 
     
 
 <body>
+
     <style>
 
 /* Header Parallax Element Style */
@@ -78,11 +83,14 @@ background-image: url("img/sunset.jpg");
     </style>
 
 <!-- First Parallax Section -->
-    <div class="jumbotron paral paralsec">
-        <h1 class="display-3">"TALK LAVENDER TO ME ..."</h1>
-            <p class="lead">
-         </p>
-    </div>
+    
+<div  class="jumbotron paral paralsec; embed-responsive embed-responsive-16by9">
+    <video autoplay loop class="embed-responsive-item">
+        <source src= "./videos/lavendervideo.mov" type=video/mp4>
+    </video>
+</div>
+
+
 
 <!-- Second Parallax Section -->
     <div class="jumbotron paral paralsec1">
@@ -112,7 +120,7 @@ background-image: url("img/sunset.jpg");
               </div>
         <div class="card" style="width: 18rem;">
                     <h5 class="card-title">HONEY</h5>
-                        <img src="./img/image02.jpg" class="card-img-top" alt="...">
+                        <img src="./img/image03.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                     <a href="#" class="btn btn-primary">View Here</a>
                 </div>
@@ -123,21 +131,38 @@ background-image: url("img/sunset.jpg");
 
 <!--Carmen amended about the owners-->
 
-<div class="d-md-flex">
-    <div class="col-md-6">
-        <h1 class="owners">About the Owners</h1>
-            <p class="owners">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div> 
-    <div class="col-md-6">
+<div class="container-fluid ">
+    <div class="row lead">
+        <h1 class="owners display-4 col-sm-4 col-md-6 col-lg-12">About the Owners</h1>
+            <div class = "d-flex justify-content-around"><p class="owners">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
            <img src="img/collage.png" class="collage">
         </div> 
-</div>   
+    </div>
+</div>
 
+
+<!--Yozgyan Form Section to go here -->
+
+<div class="container-fluid contact">
+        <div class="row lead">
+            <h1 class="display-3 col-sm-4 col-md-6 col-lg-12">Contact Us</h1>
+                <div class = "d-flex justify-content-around" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <form action="" method = "">
+                   <input placeholder="Name">
+                   <input placeholder="Email">
+               </form>
+            </div> 
+        </div>
+    </div>
+
+
+
+<!--copyright section-->
 
 <div class= "container-fluid">
         <div class= "row">    
-            <div class ="col-sm-4 col-lg-12 d-flex justify-content-around" style = "background-color:blueviolet; color: white">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class ="col-sm-4 col-md-6 col-lg-12 d-flex justify-content-around" style = "background-color: #5B215E; color: white">
+                <p>Copyright LancashireLavender.com </p>
         </div>
     </div>  
 </div>

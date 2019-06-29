@@ -1,8 +1,3 @@
-/*Carmen added body */
-
-body {
-   width: 100vw; 
-}
 .right-nav-bar {
    position: fixed ;
    height: 13vw ;
@@ -18,7 +13,7 @@ body {
    position: absolute;
    left:1vw;
    top:1vw;
-   color:purple
+   color:#5B215E
 
 }
  .insta i:hover {
@@ -29,7 +24,7 @@ body {
    position: absolute;
    left:1vw;
    top:4vw;
-   color:purple
+   color:#5B215E
 }
  .face i:hover {
    color:rgb(255, 0, 255)
@@ -40,7 +35,7 @@ body {
    position: absolute;
    left:1vw;
    top:7vw;
-   color:purple
+   color:#5B215E
  
 }
  .twitter i:hover {
@@ -51,13 +46,16 @@ body {
    position: absolute;
    left:1vw;
    top:10vw;
-   color:purple
+   color:#5B215E
 
 }
  .snap i:hover{
    color:rgb(255, 0, 255)
 }
+
+
 /*CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
+
 .nav {
    min-height: 60px;
    vertical-align: middle;
@@ -91,4 +89,8 @@ body {
 
 .owners {
    color: #802E83;
+}
+.contact {
+   color: white;
+   background-color: #802E83
 }
