@@ -1,3 +1,6 @@
+body {
+   font-family: 'Noto Sans', sans-serif;
+}
 .right-nav-bar {
    position: fixed ;
    height: 13vw ;
@@ -74,9 +77,10 @@
    left: 5vw;
 }
 
-.logo-img {
-   width: 150px; 
-   border: 0; 
+.img-logo {
+   width: 80px;
+   min-height: 80px; 
+  
 }
 
 /****Ends here ****   *CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
@@ -84,13 +88,37 @@
 /*Carmen added collage*/
 
 .collage {
-   width: 50vw;
+   width: 50vw; 
+   height: auto; 
 }
 
 .owners {
    color: #802E83;
+   font-family: 'Amatic SC', cursive;
+   font-size: 25px; 
 }
 .contact {
    color: white;
    background-color: #802E83
+}
+
+.btn-primary {
+   background-color: #802E83;
+   border: white; 
+}
+
+.btn-primary:hover {
+   color: #802E83;
+   background-color: white; 
+}
+
+.card-img-top {
+   object-fit: cover; 
+   height: 40vh; 
+}
+
+.contact {
+   background-color: lightgrey;
+   width: 100%;
+   color: #505050;
 }

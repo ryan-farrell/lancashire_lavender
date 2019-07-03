@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
         <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel = 'stylesheet' href="./css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
         <title>Lancashire Lavender</title>
     </head>
-    <nav>
+   
 
-        <!--CARMEN AMENDED COLOUR AND ADDED IMAGE LOGO-->
-    <ul class="nav justify-content-center fixed-top" style = "background-color: white" >
-            <a class="navbar-brand" href="#">
-                <img class = "logo-img; col-sm-4 col-md-4 col-lg-5" src="img/final logo.PNG" /></a>
+        <!--NAVBAR-->
+        <nav>
+    <ul class="nav justify-content-center fixed-top smooth-scroll" style = "background-color: white" >
+            
+                <img class = "img-responsive img-logo" src="img/finallogo.PNG" />
         <li> 
-            <a class="nav-link" style ="color: #5B215E" href="#">Benefits</a>
+            <a class="nav-link smooth-scroll" style ="color: #5B215E" href="#benefitsscroll">Benefits</a>
             </li>
         <li class="nav-item">
-            <a class="nav-link" style ="color: #5B215E" href="#">Products</a>
+            <a class="nav-link smooth-scroll" style ="color: #5B215E" href="#productsscroll">Products</a>
             </li>
         <li class="nav-item">
-            <a class="nav-link" style ="color: #5B215E" href="#">About</a>
+            <a class="nav-link smooth-scroll" style ="color: #5B215E" href="#aboutscroll">About</a>
             </li>
         <li class="nav-item">
-            <a class="nav-link" style ="color: #5B215E" href="#">Contact Us</a>
+            <a class="nav-link smooth-scroll" style ="color: #5B215E" href="#contactusscroll">Contact Us</a>
             </li>
                     </ul>
         
@@ -40,7 +42,7 @@
 
 /* Header Parallax Element Style */
 .paral {
-min-height: 300px;
+min-height: 500px;
 background-attachment: fixed;
 background-size: cover;
 background-position: 50% 50%;
@@ -82,68 +84,79 @@ background-image: url("img/sunset.jpg");
 
     </style>
 
-<!-- First Parallax Section -->
+<!-- First Parallax Section-->
+<div id="top-background" class="w-100 h-100 embed-responsive embed-responsive-16by9">
+    <video autoplay muted loop id="myVideo">
+            <source src="lavendervideo.mov" type="video/mp4">
+          </video>
+</div>
     
-<div  class="jumbotron paral paralsec; embed-responsive embed-responsive-16by9">
+<!--<div  class="jumbotron paral paralsec; embed-responsive embed-responsive-16by9">
     <video autoplay loop class="embed-responsive-item">
         <source src= "./videos/lavendervideo.mov" type=video/mp4>
     </video>
+</div>-->
+
+<div class="jumbotron paral paralsec">
 </div>
 
-
-
 <!-- Second Parallax Section -->
-    <div class="jumbotron paral paralsec1">
-        <h1 class="display-3">BENEFITS</h1>
+    <div class="jumbotron paral paralsec1" id="benefitsscroll">
+        <h1 class="display-3">Why lavender...?</h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <p class="lead">
          </p>
     </div>
 
 <!-- Third Parallax Section -->
-<div class="jumbotron paral paralsec2">
-        <h1 class="display-3">PRODUCTS</h1>
+<div class="jumbotron paral paralsec2" id="productsscroll">
+        <h1 class="display-3">Our products</h1>
             <div class="d-flex justify-content-around">
-                <div class="card" style="width: 18rem;">
-                    <h5 class="card-title">OILS</h5>
+                <div class="card text-center" style="width: 18rem;">
                         <img src="./img/image02.jpg" class="card-img-top" alt="...">
-                             <div class="card-body">
+                        <h5 class="card-title">Oils</h5>
+                             <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     <a href="#" class="btn btn-primary">View Here</a>
-                </div>
               </div>
-        <div class="card" style="width: 18rem;">
-                    <h5 class="card-title">BEAUTY</h5>
+        <div class="card text-center" style="width: 18rem;">
                         <img src="./img/image01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <h5 class="card-title">Beauty</h5>
+                            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     <a href="#" class="btn btn-primary">View Here</a>
-                </div>
               </div>
-        <div class="card" style="width: 18rem;">
-                    <h5 class="card-title">HONEY</h5>
+        <div class="card text-center" style="width: 18rem;">
                         <img src="./img/image03.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <h5 class="card-title">Honey</h5>
+                            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     <a href="#" class="btn btn-primary">View Here</a>
-                </div>
-            </div>  
+            </div>
         </div>          
     </div>
 
 
 <!--Carmen amended about the owners-->
 
-<div class="container-fluid ">
-    <div class="row lead">
-        <h1 class="owners display-4 col-sm-4 col-md-6 col-lg-12">About the Owners</h1>
-            <div class = "d-flex justify-content-around"><p class="owners">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           <img src="img/collage.png" class="collage">
+<div class="container-fluid" id="aboutscroll">
+    <div class="row"></div>
+            <div class = "d-flex justify-content-around">
+            <p class="owners">OUR STORY...<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img class="img-responsive collage" src="img/collage.png">
         </div> 
-    </div>
-</div>
-
+        </div>
+    
 
 <!--Yozgyan Form Section to go here -->
-<div class="container">
-           <div class="row  ">
+<div class="container-fluid contact" id="contactusscroll">
+           <div class="row">
+               <div class = "col">
+                  
+                   <h5>Lancashire Lavender</h5>
+                   <i class="fa fa-address-card" aria-hidden="true"></i><br>
+                   <i class="fa fa-phone" aria-hidden="true"></i><br>
+                   <i class="fa fa-envelope" aria-hidden="true"></i><br>
+                   <img class = "img-responsive img-logo" src="img/finallogo.PNG" />
+               </div>
+               <div class = "col">
                    <form>
                            <div class="form-group  ">
                              <label for="exampleInputEmail1">Email address</label>
@@ -160,6 +173,7 @@ background-image: url("img/sunset.jpg");
                            </div>
                            <button type="submit" class="btn btn-primary">Submit</button>
                          </form>
+           </div>
            </div>
    </div>
 
