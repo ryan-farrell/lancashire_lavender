@@ -32,6 +32,7 @@ Used in this project are the following libraries:
 - Font Awesome 
 - Google Fonts
 - All pictures & video NOT provided by client at the outset
+- Logo design courtesy of a friend of a team member
 
 ## The Team
 

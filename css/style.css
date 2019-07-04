@@ -1,6 +1,7 @@
 body {
    font-family: 'Noto Sans', sans-serif;
 }
+
 .right-nav-bar {
    position: fixed ;
    height: 13vw ;
@@ -77,10 +78,9 @@ body {
    left: 5vw;
 }
 
-.img-logo {
-   width: 80px;
-   min-height: 80px; 
-  
+.logo-img {
+   width: 10vw;
+   min-height: 10vh;
 }
 
 /****Ends here ****   *CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
@@ -88,8 +88,8 @@ body {
 /*Carmen added collage*/
 
 .collage {
-   width: 50vw; 
-   height: auto; 
+   width: 50%; 
+   height: 100%;
 }
 
 .owners {
@@ -120,5 +120,11 @@ body {
 .contact {
    background-color: lightgrey;
    width: 100%;
-   color: #505050;
+   color: gray; 
 }
+
+@media screen and (max-width: 600px) {
+  
+  
+   }
+ 
